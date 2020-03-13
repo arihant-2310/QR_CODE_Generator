@@ -10,8 +10,10 @@
 <body>
   <div class="qrbox">
     <img src="./default.gif" alt="qr-code">
-    <textarea></textarea>
-    <button>Generate QR</button>
+     <textarea id="text"></textarea>
+      <button onclick="return validate() && generateQR();">
+        Generate QR Code
+      </button>
   </div>
 </body>
 </html>
